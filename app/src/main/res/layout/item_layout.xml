@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3"
+    >
+    <TableRow>
+        <TextView
+            android:id="@+id/lesson_Name"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_column="1"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/lesson_v"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_column="1"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/lesson_Final"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_column="1"
+            ></TextView>
+    </TableRow>
+
+</TableLayout>

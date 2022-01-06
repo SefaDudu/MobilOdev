@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentNav"
+    android:stretchColumns="1,2,3"
+    android:layout_margin="8dp"
+    >
+
+    <TableRow>
+
+        <TextView
+            android:text="Ders"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="1"
+            android:gravity="center"
+        />
+        <TextView
+            android:text="Vize"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="2"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:text="Final"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="3"
+            android:gravity="center"
+            />
+
+
+
+    </TableRow>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/search_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="302dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:text="Ders Ekle"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</TableLayout>
+
